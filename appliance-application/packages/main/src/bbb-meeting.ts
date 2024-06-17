@@ -114,7 +114,7 @@ export class BBBMeeting{
         webPreferences: {
           partition: partition,
           contextIsolation: true,
-
+          devTools: false,
         },
       });
 
